@@ -29,7 +29,7 @@ class Training:
     """Базовый класс тренировки."""
 
     LEN_STEP = 0.65
-    M_IN_KM = 1000
+    M_IN_KM = 1_000
     H_IN_M = 60
 
     def __init__(self, action: int, duration: float, weight: float) -> None:
